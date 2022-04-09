@@ -1,3 +1,5 @@
+/* there were some strange dots appearing, so I'm trying to fix this, for now I have changed the header back to black, seems as though the link items have full-stops so need to get rid of those*/
+
 .header {
     position: fixed;
     height: 70px;
@@ -89,4 +91,4 @@
 }
 
 
-/* there were some strange dots appearing, so I'm trying to fix this, for now I have changed the header back to black*/
+/* there were some strange dots appearing, so I'm trying to fix this, for now I have changed the header back to black, seems as though the link items have full-stops so need to get rid of those*/
