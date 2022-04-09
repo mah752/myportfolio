@@ -2,5 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 10px;
+    margin-left: -90px;
+    margin-top: 500px;
 }

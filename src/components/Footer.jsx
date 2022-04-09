@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+
 import "./Footer.css";
 
 const Footer = () => {
@@ -57,6 +59,18 @@ const Footer = () => {
               onClick={closeMenu}
             >
               Blog
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              onClick={closeMenu}
+            >
+              Contact me
             </Link>
           </li>
         </ul>

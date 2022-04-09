@@ -2,8 +2,10 @@ import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Blog from "./components/Blog";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import "./App.css";
+import "./app.css";
 
 //import { FormText } from "react-bootstrap";
 
@@ -14,6 +16,8 @@ const App = () => {
       <Intro />
       <About />
       <Projects />
+      <Blog />
+      <Contact/>
       <Footer />
     </div>
   );

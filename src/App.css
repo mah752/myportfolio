@@ -1,3 +1,4 @@
 body {
-    background: linear-gradient( 180deg, #a533af 20.83%, rgba(247, 192, 181, 0) 100%), #f7c0b5;
+    background: rgb(41, 84, 163);
+    background: radial-gradient(circle, rgba(41, 84, 163, 1) 24%, rgba(40, 80, 158, 1) 39%, rgba(15, 16, 63, 1) 72%);
 }

@@ -5,14 +5,7 @@ import "./contactButton.css";
 //contact me button component
 const Contactbutton = () => {
   const Button = styled.button`
-    background: conic-gradient(
-      from 180deg at 50% 50%,
-      rgba(181, 226, 220, 0.59) -166.88deg,
-      #0077b5 150deg,
-      #98b8de 181.87deg,
-      rgba(181, 226, 220, 0.59) 193.12deg,
-      #0077b5 510deg
-    );
+    background: linear-gradient(107.21deg, #c961de 24.43%, #2954a3 68.95%);
     border-radius: 20px;
     color: white;
     font-size: 20px;

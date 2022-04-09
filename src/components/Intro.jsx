@@ -20,13 +20,13 @@ const Intro = () => {
               <div className="i-title-item"> Based in the UK</div>
             </div>
           </div>
-          <div className="contact-button">
-            <Contactbutton />
-          </div>
         </div>
       </div>
       <div className="i-right">
         <img src={intropic} alt="intro-pic" />
+        <div className="contact-button">
+          <Contactbutton />
+        </div>
       </div>
     </div>
   );
