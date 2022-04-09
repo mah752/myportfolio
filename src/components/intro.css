@@ -1,0 +1,78 @@
+.i {
+    display: flex;
+    height: 100vh;
+}
+
+.i-left {
+    flex: 1;
+}
+
+.i-right {
+    flex: 1;
+}
+
+.i-left-wrapper {
+    padding: 50px;
+}
+
+.i-intro {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 100px;
+    color: #423232;
+    text-align: center;
+}
+
+.i-name {
+    font-size: 60px;
+    color: #423232;
+    text-align: center;
+}
+
+.i-title {
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+/*animation for what I do using css*/
+
+.i-title-wrapper {
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25% {
+        transform: translateY(-25px);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+    75% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(-150px);
+    }
+}
+
+.i-title-item {
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    color: #98B8DE;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*My cartoon avatar*/
+
+img {
+    width: 500px;
+    height: 550px;
+    display: block;
+    margin: 0 auto;
+}
