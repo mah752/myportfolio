@@ -17,7 +17,7 @@ const Contactbutton = () => {
 
   return (
     <div>
-      <a href="https://react.school" target="_blank">
+      <a href="./contact" target="_blank">
         <Button> Let's work together </Button>
       </a>
     </div>

@@ -79,3 +79,8 @@ img {
     position: absolute;
     z-index: -1;
 }
+
+
+/*responsivity using @media queuries*/
+
+@media(max-width: 320px) {}
