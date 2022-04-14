@@ -1,6 +1,6 @@
 import React from "react";
 import Intro from "./components/Intro";
-import NavbarElement from "./components/navbar/index";
+import Navbar from "./components/navbar/navbar";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Blog from "./components/Blog";
@@ -15,7 +15,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const App = () => {
   return (
     <div className="portfolio-app">
-      <NavbarElement />
+      <Navbar/>
       <Intro />
       <About />
       <Projects />
