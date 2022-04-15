@@ -1,0 +1,74 @@
+            :root {
+               --branding-color: linear-gradient(107.21deg, #c961de 24.43%, #2954a3 68.95%);
+               --secondary-color: #f9f7fe;
+               --heading-font-family: "Playfair Display", serif;
+               --default-font-family: "Poppins", sans-serif;
+           }
+           
+           body {
+               font-family: var(--default-font-family);
+               background: radial-gradient(circle, rgba(65, 12, 189, 1) 24%, rgba(6, 26, 66, 1) 50%, rgba(43, 0, 64, 1) 89%);
+           }
+           
+           .content-container {
+               padding: 60px 20px;
+           }
+           
+           .content h1 {
+               font-size: 64px;
+               line-height: 80px;
+           }
+           
+           .content h2 {
+               font-size: 18px;
+               font-family: var(--default-font-family);
+           }
+           
+           .content h3 {
+               font-size: 24px;
+               line-height: 1.5;
+               font-family: var(--default-font-family);
+           }
+           
+           .content p {
+               font-size: 14px;
+           }
+           
+           .content {
+               margin: 30px;
+           }
+           
+           .btn-branding {
+               background: linear-gradient(107.21deg, #c961de 24.43%, #2954a3 68.95%);
+               border-radius: 20px;
+               color: white;
+               border: 1px solid var(--secondary-color);
+               font-size: 18px;
+               line-height: 27px;
+               padding: 15px 30px;
+               align-items: center;
+               display: flex;
+               justify-content: center;
+           }
+           
+           .btn-branding-outline {
+               background: linear-gradient(107.21deg, #c961de 24.43%, #2954a3 68.95%);
+               color: var(--secondary-color);
+               border: 1px solid var(--secondary-color);
+               border-radius: 20px;
+               font-size: 18px;
+               line-height: 27px;
+               padding: 15px 30px;
+               align-items: center;
+               display: flex;
+               justify-content: center;
+           }
+           
+           .project-desciption {
+               padding: 120px 60px;
+           }
+           
+           .logo {
+               max-height: 40px;
+               font-weight: bold;
+           }

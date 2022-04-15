@@ -3,6 +3,7 @@ import "./intro.css";
 import intropic from "../img/intropic.png";
 import Contactbutton from "./ContactButton";
 
+
 //import workTogetherButton from "./workTogetherButton";
 //This is my intro section
 const Intro = () => {
@@ -23,10 +24,10 @@ const Intro = () => {
         </div>
       </div>
       <div className="i-right">
-        <img className="intro-pic" src={intropic} alt="intro-pic" />
+        <img className="intro-pic"src={intropic} alt="intro-pic" />
         <div className="contact-button">
           <Contactbutton />
-        </div>
+        </div> 
       </div>
     </div>
   );

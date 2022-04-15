@@ -1,6 +1,21 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--secondary-color);
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+}
+
+p {
+    color: var(--secondary-color);
+}
+
 .i {
     display: flex;
-    height: 100vh;
+    height: auto;
 }
 
 .i-left {
@@ -83,4 +98,47 @@
 
 /*responsivity using @media queuries*/
 
-@media(max-width: 320px) {}
+@media (max-width: 1030px) {
+    .i-title-item {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 44px;
+        line-height: 1.5;
+    }
+    h2 {
+        font-size: 44px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    .content {
+        text-align: center;
+        padding: 0;
+    }
+    .project-desciption {
+        padding: 0;
+        text-align: center;
+    }
+    .i-title-item {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 724px) {
+    .i-right {
+        display: none;
+    }
+    .i-title-item {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .i-title {
+        font-size: 10px;
+    }
+}

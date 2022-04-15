@@ -20,20 +20,14 @@ const App = () => {
         <nav
           style={{
             paddingBottom: "1rem",
-            MarginRight: 0,
+            
           }}
         >
-           <Link to="/"> <img
-            src="/logo192.png"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-            alt="React Bootstrap logo"
-          /> </Link>
-          <Link to="/intro">Home</Link>{" "} 
-          <Link to="/about">About me</Link>{" "}
-          <Link to="/projects">Projects</Link> <Link to="/blog">Blog</Link>{" "}
-          <Link to="/contact">Contact</Link>{" "}
+         <ul><li><Link to="/intro">Home</Link></li>{" "} 
+          <li><Link to="/about">About</Link></li>{" "}
+          <li><Link to="/projects">Projects</Link></li> 
+          <li><Link to="/blog">Blog</Link></li>{" "}
+          <li><Link to="/contact">Contact</Link></li>{" "}</ul> 
         </nav>
         <Outlet />
       </header>

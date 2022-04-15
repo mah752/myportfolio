@@ -9,3 +9,34 @@
         background: rgb(41, 84, 163);
         background: radial-gradient(circle, rgba(41, 84, 163, 1) 24%, rgba(40, 80, 158, 1) 39%, rgba(15, 16, 63, 1) 72%);
     }
+    
+    nav {
+        padding: 20px 0;
+        font-size: 25px;
+    }
+    
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav li {
+        display: inline;
+        list-style: none;
+        line-height: 42px;
+        margin-left: 15px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #C961DE;
+        transition: all 100ms ease-in-out;
+        display: inline-block;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    nav a:hover,
+    nav li.active a {
+        color: var(--secondary-color);
+    }

@@ -1,39 +1,60 @@
+:root {
+    --branding-color: linear-gradient(107.21deg, #c961de 24.43%, #2954a3 68.95%);
+    --secondary-color: #f9f7fe;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--branding-color);
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+}
+
+p {
+    color: var(--branding-color);
+}
+
 .footer {
-    width: 100%;
-    background-color: #000;
-    color: #eee;
-    padding: 3rem 1rem;
+    margin: 60px 0;
 }
 
-.footer .container {
-    max-width: 1240px;
-    margin: auto;
-    text-align: center;
+.footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
 }
 
-.footer ul {
-    display: flex;
-    justify-content: center;
+footer .contact-box p {
+    margin: 0;
 }
 
-.footer li {
-    padding: 1rem;
+footer .email-link {
+    text-decoration: none;
+    color: #c961de;
+    font-size: 24px;
 }
 
-.footer li a {
-    color: #fff;
+footer .email-link:hover {
+    color: var(--branding-color);
 }
 
-.footer li a:hover {
-    padding-bottom: 12px;
-    border-bottom: 3px solid var(--secondary-color);
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--secondary-color);
+    background: var(--branding-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
 }
 
-.bottom {
-    text-align: center;
-    padding-top: 3rem;
-}
-
-.line {
-    margin-bottom: 1rem;
+footer .social-links a:hover {
+    color: white;
+    background: #c961de;
 }
