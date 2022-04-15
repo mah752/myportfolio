@@ -71,7 +71,7 @@
 
 /*My cartoon avatar*/
 
-img {
+.intro-pic {
     width: 500px;
     height: 550px;
     display: block;
